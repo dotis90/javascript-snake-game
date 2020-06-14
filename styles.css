@@ -7,11 +7,12 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 0;
-  background-color: #faeee7;
+  color: #fef2bf;
+  background-color: #07031a;
 }
 
 #game-board {
-  background-color: #0e9aa7;
+  background-color: #ffcb74;
   /* width: 100vmin;
   height: 100vmin; */
   width: 630px;
@@ -21,13 +22,14 @@ body {
   grid-template-columns: repeat(21, 1fr);
 }
 
-#title {
+#heading-text {
   font-size: 2em;
   margin: 30px 0;
+  color: white;
 }
 
 #score-display {
-  color: #0e9aa7;
+  color: #fef2bf;
   font-size: 1.5em;
   margin: 10px 0;
 }
@@ -37,12 +39,12 @@ body {
 }
 
 .snake {
-  background-color: #f6cd61;
+  background-color: #6a097d;
   /* border: 0.25vmin solid black; */
 }
 
 .food {
-  background-color: #fe8a71;
+  background-color: #79d70f;
   border: 0.25vmin solid black;
 }
 

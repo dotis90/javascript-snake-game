@@ -1,5 +1,5 @@
 import { getInputDirection } from "./input.js";
-import { eatSound } from "./sound.js";
+import { eatSound, gameOverSound } from "./sound.js";
 
 export const SNAKE_SPEED = 5;
 const snakeBody = [{ x: 10, y: 11 }];
